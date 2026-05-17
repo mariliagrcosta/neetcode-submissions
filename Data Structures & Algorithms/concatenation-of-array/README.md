@@ -1,25 +1,23 @@
-# Contains Duplicate
+# Concatenation of Array
 
-Given an integer array `nums`, return `true` if any value appears **more than once** in the array, otherwise return `false`.
+You are given an integer array `nums` of length `n`. Create an array `ans` of length `2n` where `ans[i] == nums[i]` and `ans[i + n] == nums[i]` for `0 <= i < n` **(0-indexed)**.
+
+Specifically, `ans` is the concatenation of two `nums` arrays.
+
+Return the array `ans`.
 
 **Example 1:**
 
 ```java
-Input: nums = [1, 2, 3, 3]
+Input: nums = [1,4,1,2]
 
-Output: true
+Output: [1,4,1,2,1,4,1,2]
 ```
 
-  
 **Example 2:**
 
 ```java
-Input: nums = [1, 2, 3, 4]
+Input: nums = [22,21,20,1]
 
-Output: false
+Output: [22,21,20,1,22,21,20,1]
 ```
-
-**Constraints:**
-
-- `0 <= nums.length <= 10^5`
-- `-10^9 <= nums[i] <= 10^9`
