@@ -26,13 +26,3 @@ Output: 2
 - `-1,000,000,000 <= nums[i] <= 1,000,000,000`
 
 **Follow-up:** Could you solve the problem in linear time and in `O(1)` space?
-
-----------------
-# Fundamentals
-
-
-
-
-
-_________
-# Resolution
