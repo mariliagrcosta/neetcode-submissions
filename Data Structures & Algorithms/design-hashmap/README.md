@@ -1,5 +1,4 @@
 # Design HashMap
-[Easy]
 
 Design a HashMap without using any built-in hash table libraries.
 
