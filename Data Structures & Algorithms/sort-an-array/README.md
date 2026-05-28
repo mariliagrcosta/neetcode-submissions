@@ -1,5 +1,5 @@
 # Sort an Array
-[Medium]
+[Difficulty: Medium]
 
 You are given an array of integers `nums`, sort the array in ascending order and return it.
 
